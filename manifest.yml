@@ -1,0 +1,9 @@
+applications:
+- buildpack: sdk-for-nodejs
+  command: npm start
+  instances: 1
+  memory: 128M
+  name: dsafe
+  routes:
+  - route: dsafe.eu-gb.cf.appdomain.cloud
+  timeout: 180
